@@ -1,0 +1,174 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Palatune - Your Taste, In the Moment</title>
+    <meta name="description" content="Simple questions, perfect meals. We discover your intentions so you don't have to think about it." />
+    <meta property="og:title" content="Palatune - Your Taste, In the Moment" />
+    <meta property="og:description" content="Simple questions, perfect meals. We discover your intentions so you don't have to think about it." />
+    <meta property="og:type" content="website" />
+
+    <!-- Tailwind CSS (CDN) -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <style>
+      .gradient-green-tan {
+        background: linear-gradient(135deg, #4CAF50 0%, #D2B48C 100%);
+      }
+      .hover-bounce {
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+      }
+      .hover-bounce:hover {
+        transform: translateY(-6px);
+        box-shadow: 0 12px 24px rgba(76, 175, 80, 0.3);
+      }
+      .card-glow {
+        transition: all 0.3s ease;
+      }
+      .card-glow:hover {
+        background-color: #f5f5dc;
+        transform: scale(1.02);
+      }
+      body {
+        font-family: 'Poppins', sans-serif;
+      }
+      .emoji-bounce {
+        display: inline-block;
+        transition: transform 0.3s ease;
+      }
+      .emoji-bounce:hover {
+        transform: scale(1.2);
+      }
+    </style>
+    <!-- Add Poppins Google Font for a friendly vibe -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  </head>
+  
+  <body class="min-h-screen bg-gradient-to-b from-white to-tan-50 antialiased">
+    <!-- Header -->
+    <header class="bg-white border-b border-tan-100 sticky top-0 z-10 shadow-sm">
+      <div class="mx-auto max-w-6xl px-6 py-4">
+        <div class="flex items-center justify-between">
+          <div class="flex items-center gap-4">
+            <div class="h-12 w-12 rounded-full gradient-green-tan flex items-center justify-center shadow-md">
+              <span class="text-white font-bold text-2xl">P</span>
+            </div>
+            <div>
+              <h1 class="text-2xl font-semibold text-gray-800">Palatune</h1>
+              <p class="text-sm text-green-600">Your taste, in the moment</p>
+            </div>
+          </div>
+          <div class="text-sm font-medium text-green-500 flex items-center gap-2">
+            <span class="emoji-bounce">✨</span> Coming Soon
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- Hero -->
+    <section class="mx-auto max-w-5xl px-6 py-24 text-center">
+      <h2 class="text-4xl md:text-6xl font-bold text-gray-800 mb-6 leading-tight tracking-tight">
+        Find your<br class="hidden md:inline"> perfect meal
+      </h2>
+      <p class="text-lg md:text-xl text-gray-600 mb-12 max-w-3xl mx-auto leading-relaxed">
+        Answer a few fun questions, and we’ll match you with a meal that feels just right for now.
+      </p>
+      <button class="gradient-green-tan text-white px-10 py-4 rounded-full font-semibold text-lg hover-bounce shadow-lg">
+        Start Your Journey
+      </button>
+    </section>
+
+    <!-- How It Works -->
+    <section class="bg-tan-50 py-24">
+      <div class="mx-auto max-w-5xl px-6 text-center">
+        <h3 class="text-3xl md:text-4xl font-semibold text-gray-800 mb-16 tracking-tight">
+          We get you, right now
+        </h3>
+        
+        <div class="grid md:grid-cols-2 gap-12 md:gap-16 items-center">
+          <div class="text-left md:pr-10">
+            <h4 class="text-2xl font-medium text-gray-800 mb-6">Mood • Energy • Cravings</h4>
+            <p class="text-lg text-gray-600 mb-6 leading-relaxed">
+              With a few playful questions, we figure out what your body and soul are craving today.
+            </p>
+            <p class="text-green-500 italic">
+              Then we find the perfect dish to light up your moment.
+            </p>
+          </div>
+          
+          <div class="bg-white rounded-3xl p-8 shadow-lg border border-tan-100">
+            <div class="space-y-6">
+              <div class="card-glow text-left p-4 rounded-xl bg-tan-50">
+                <p class="text-gray-800 font-medium mb-1">How hungry are you? <span class="emoji-bounce">🍽️</span></p>
+                <p class="text-gray-500 text-sm">Let’s check your appetite</p>
+              </div>
+              <div class="card-glow text-left p-4 rounded-xl bg-tan-50">
+                <p class="text-gray-800 font-medium mb-1">What’s your vibe today? <span class="emoji-bounce">🌈</span></p>
+                <p class="text-gray-500 text-sm">Picking up on your mood</p>
+              </div>
+              <div class="card-glow text-left p-4 rounded-xl bg-tan-50">
+                <p class="text-gray-800 font-medium mb-1">What’s calling you? <span class="emoji-bounce">😋</span></p>
+                <p class="text-gray-500 text-sm">Finding your food spark</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Value Props -->
+    <section class="mx-auto max-w-5xl px-6 py-24">
+      <div class="text-center mb-16">
+        <h3 class="text-3xl md:text-4xl font-semibold text-gray-800 mb-8 tracking-tight">
+          Meals that feel like you
+        </h3>
+      </div>
+      
+      <div class="grid md:grid-cols-2 gap-12 md:gap-16">
+        <div class="text-center p-8 rounded-3xl bg-white shadow-md card-glow">
+          <div class="mb-6 text-4xl emoji-bounce">🌟</div>
+          <h4 class="text-xl font-medium text-gray-800 mb-4">Your unique flavors</h4>
+          <p class="text-lg text-gray-600 leading-relaxed">
+            We find dishes that match your mood and cravings, not just what’s trendy.
+          </p>
+        </div>
+        
+        <div class="text-center p-8 rounded-3xl bg-white shadow-md card-glow">
+          <div class="mb-6 text-4xl emoji-bounce">🛒</div>
+          <h4 class="text-xl font-medium text-gray-800 mb-4">Budget-friendly bites</h4>
+          <p class="text-lg text-gray-600 leading-relaxed">
+            Meals that fit your wallet, with simple ingredients you can actually afford.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Final CTA -->
+    <section class="bg-gradient-to-r from-tan-50 to-green-50 py-24">
+      <div class="mx-auto max-w-5xl px-6 text-center">
+        <h3 class="text-3xl md:text-4xl font-semibold text-gray-800 mb-8 tracking-tight">
+          Let’s make food fun again
+        </h3>
+        <p class="text-lg md:text-xl text-gray-600 mb-12 max-w-3xl mx-auto leading-relaxed">
+          No more overthinking meals. We’ll find the perfect dish for your moment.
+        </p>
+        <button class="gradient-green-tan text-white px-12 py-4 rounded-full font-semibold text-lg hover-bounce shadow-lg">
+          Join the Fun
+        </button>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="border-t border-tan-100 py-8 bg-white">
+      <div class="mx-auto max-w-6xl px-6">
+        <div class="flex flex-col md:flex-row justify-between items-center text-sm text-gray-500 gap-4">
+          <span>© 2025 Palatune by Frequency LABS</span>
+          <span class="flex items-center gap-2"><span class="emoji-bounce">🎉</span> Coming Soon</span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
